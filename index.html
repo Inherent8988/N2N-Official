@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="NIGHT TO NEVER — официальный сайт игровой серии Inherent Studios.">
+  <title>NIGHT TO NEVER — Official Site</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">NIGHT TO NEVER <span>(Official Site)</span></a>
+  </header>
+
+  <main class="home-main">
+    <div class="home-menu">
+      <button class="menu-button" id="episodesButton">Episodes</button>
+      <button class="menu-button" id="aboutButton">О Inherent</button>
+    </div>
+  </main>
+
+  <div class="modal" id="episodesNotice" aria-hidden="true">
+    <div class="modal-card notice-card" role="dialog" aria-modal="true" aria-labelledby="noticeTitle">
+      <button class="modal-close" aria-label="Закрыть">&times;</button>
+      <p id="noticeTitle" class="notice-text">NIGHT TO NEVER — Приложения сделаны через WebView сайта. Из-за этого приложения могут весить 80–100 КБ, потому что сам сайт находится не внутри WebView!</p>
+      <button class="action-button" id="continueEpisodes">Продолжить</button>
+    </div>
+  </div>
+
+  <div class="modal" id="aboutModal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="aboutTitle">
+      <button class="modal-close" aria-label="Закрыть">&times;</button>
+      <p class="eyebrow">ABOUT THE DEVELOPER</p>
+      <h1 id="aboutTitle">О Inherent</h1>
+      <p>Inherent — независимый разработчик игр и цифровых проектов, работающий над собственными идеями под именем Inherent Studios.</p>
+      <p><strong>NIGHT TO NEVER</strong> — авторская серия атмосферных хоррор-игр. Проект развивается самостоятельно: от идеи и оформления до сборки и публикации игровых эпизодов.</p>
+      <p class="muted">Спасибо, что поддерживаете независимую разработку.</p>
+    </div>
+  </div>
+</body>
+</html>

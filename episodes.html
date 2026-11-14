@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090909">
+  <title>NIGHT TO NEVER — All Episodes</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="episodes.html">NIGHT TO NEVER <span>- All Episodes</span></a>
+  </header>
+
+  <main class="episodes-main">
+    <button class="episode-entry" id="episodeOneButton" aria-label="Открыть NIGHT TO NEVER - Staying Home">
+      <img src="n2n-ep1.png" alt="NIGHT TO NEVER - Staying Home" class="episode-cover">
+      <span class="episode-name">NIGHT TO NEVER - Staying Home</span>
+    </button>
+  </main>
+
+  <div class="modal" id="episodeModal" aria-hidden="true">
+    <div class="modal-card episode-modal-card" role="dialog" aria-modal="true" aria-labelledby="episodeTitle">
+      <button class="modal-close" aria-label="Закрыть">&times;</button>
+      <img src="n2n-ep1.png" alt="Обложка NIGHT TO NEVER - Staying Home" class="modal-cover">
+      <h1 id="episodeTitle">NIGHT TO NEVER - Staying Home</h1>
+      <a class="action-button download-button" href="NIGHT-TO-NEVER-Ep1.apk" download>Download</a>
+    </div>
+  </div>
+</body>
+</html>
